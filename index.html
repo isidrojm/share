@@ -217,8 +217,8 @@
     var currentUrl = window.location.href;
     var questionMarkIndex = currentUrl.indexOf('=');
     downloadUrl = window.location.href.slice(questionMarkIndex+1);
-    if(isWeiXin() && location.host !== 'isidr1234z.github.io') {
-      window.location.href = 'https://isidr1234z.github.io/share/?url=' + downloadUrl
+    if(isWeiXin() && location.host !== 'isidrojm.github.io') {
+      window.location.href = 'https://isidrojm.github.io/share/?url=' + downloadUrl
     }
     if(questionMarkIndex && (currentUrl.includes('www') || currentUrl.includes('new-vip'))) {
       if(!isWeiXin()) {
